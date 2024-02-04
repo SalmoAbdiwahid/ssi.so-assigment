@@ -1,0 +1,221 @@
+*{
+    font-family:'Roboto', sans-serif;
+   
+
+}
+ul{
+    font-family:'Roboto', sans-serif;
+    font-size: 23px;
+}
+
+.navbar-nav .active{
+    color: #FF8502 !important;
+}
+.nav-link{
+    color: #fff !important;
+}
+.nav-link:hover { color: #FF8502 !important;
+transition: 1s; }
+
+
+/* =====section one starts here===== */
+.bg-img{
+    background-image:  linear-gradient(to top left, rgb(0, 0, 0, 0), rgba(25, 55, 98, 1)),
+    url('/imgs/IMG_9603.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 670px;
+    
+}
+.text{
+    position: absolute;
+    margin-top: 60px;
+    font-family: 'Lato', sans-serif;
+}
+.bg-img .text h1{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    /* font-weight: 700; */
+}
+#allCoursesBtn{
+    background-color: #FF8502;
+    font-family: 'Lato', sans-serif;
+}
+#allCoursesBtn:hover{
+    color: #FF8502;
+    background-color: #fff;
+}
+
+
+.marging{
+    margin-top: 90%;
+}
+.bg-img .container{
+    top: 80%;
+    position: absolute;
+    left: 5%;
+}
+.bg-img .container .row #col{
+    height: 320px;
+    margin: 10px;
+}
+.bg-img .container .row #col .contant{
+    margin-top: 30px;
+}
+.bg-img .container .row #col #icon{
+    width: 90px;
+    margin-left: 90px;
+   
+    color: #193762;
+}
+
+.bg-img .container .row #col #icon ion-icon{
+    background-color: #F5F5F5;
+
+}
+.bg-img .container .row #col #icon ion-icon:hover{
+    background-color: #193762;
+    color: #fff;
+    
+}
+.bg-img .container .row #col #icon span ion-icon{
+    color: #fff;
+    background-color: #193762;
+}
+
+
+.bg-img .container .row #col h3{
+    font-family: 'Dosis', sans-serif;
+   
+   
+}
+/* =====section one ends here===== */
+
+
+/* =====section two ends here===== */
+
+.sec-two{
+    margin-top: 30%;
+    overflow: hidden;
+    position: relative;
+    height: 900px;
+   
+   
+}
+.sec-two .container-fluid{
+    background-color: #193762;
+    height: 395px;
+    margin-top: 10%;
+   
+}
+.sec-two .container-fluid .textt{
+   position: absolute;
+   background-color: #173662;   
+   width: 760px;
+   height: 500px;
+   top: 20px;
+   margin-left: 40px;
+}
+.sec-two .container-fluid .head hr{
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    top: 20px;
+    
+}
+.sec-two .container-fluid .img{
+    left: 780px;
+    top: 50px;
+    position: absolute;
+}
+.sec-two .container-fluid .img img{
+    width: 700px;
+    height: 450px;
+    
+
+}
+/* =====section two ends here===== */
+
+/* =====section three starts here===== */
+
+.sec-three{
+    margin-top: 2%;
+}
+.sec-three .t hr{
+    margin-left: 48%;
+   color: #007BFF;
+   height: 3px;
+   width: 90px;
+}
+.sec-three .container .one-training{
+    height: 600px;
+    width: 33.33%;
+}
+
+.sec-three .container .one-training .img{
+    height:300px;
+    overflow: hidden;
+
+}
+.sec-three .container .one-training .img img{
+    transition: transform 1s ease;
+}
+.sec-three .container .one-training .img img:hover{
+    transform: scale(1.5);
+}
+.sec-three .container .one-training .info h4:hover{
+    color: #007BFF;
+    transition: 1s;
+}
+
+/* =====section three starts here===== */
+
+
+/* =====section four starts here===== */
+.sec-four{
+    margin-top: 15%;
+    font-family: 'Lato', sans-serif;
+    /* overflow: hidden; */
+   
+}
+.sec-four .cont .contant{
+    font-family: 'Lato', sans-serif;
+} 
+.sec-four .contant p{
+    color: #FF8502;
+    
+    
+}
+
+.sec-four img{
+    position: relative;
+}
+.sec-four .img .span{
+    position: absolute;
+    background-color: #FF8502;
+    width: 100px;
+    height: 100px;
+    margin-top: -10%;
+    margin-left: 3%;
+}
+
+/* =====section four ends here===== */
+
+
+/* ====footer starts here==== */
+footer{
+    margin-top: 15%;
+   
+    height:  480px;
+    font-family: 'Lato', sans-serif;
+}
+footer .container-fluid{
+    background-color: #173662;
+    
+}
+footer .copy{
+    background-color: #FF8502;
+    height: 100px;
+}
+/* ====footer ends here==== */
